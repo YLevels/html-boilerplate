@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First Webpage</title>
+    </head>
+    <body>
+        <h1>HTML Basics</h1>
+        <!--This is a comment. It will not be seen on the webpage.-->
+        <h2>HTML Boilerplate</h2>
+            <h3>Setting It Up:</h3>
+            <img src="images/Boilerplate Example.png"
+                alt="a Boilerplate skeleton">
+            <h3>Important Notes:</h3>
+            <p>Every HTML page starts with a doctype declaration. The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply (<)!DOCTYPE html(/>).</p>
+            <p>It is worth noting that we named our HTML file index. We should always name the HTML file that will contain the homepage of our websites index.html. This is because web servers will by default look for an index.html page when users land on our websites - and not having one will cause big problems.</p>
+        <h2>HTML Elements</h2>    
+            <h2>There are 6 different types of headings:</h2>
+                <h1>This is a heading 1</h1>
+                <h2>This is a heading 2</h2>
+                <h3>This is a heading 3</h3>
+                <h4>This is a heading 4</h4>
+                <h5>This is a heading 5</h5>
+                <h6>This is a heading 6</h6>
+            <h2>Text Emphasis:</h2>
+                <p>To emphasize text, you can use the (<)strong(/>) or (<)em(/>) elements:</p>
+                <p>This text is <strong>bolded</strong> and the element is also semantically marked as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element.</p>
+                <p>This text is <em>italicized</em> and the element also semantically places emphasis on the text, which again may affect things like screen readers.</p>
+            <h2>Lists</h2>
+                <p>Unordered lists are created using the (ul) element, and each item within the list is created using the list item element (li).</p>
+                <p>Each list item in an unordered list begins with a bullet point:</p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                <p>Ordered lists are created using the (ol) element. Each individual item in them is again created using the list item element (li). However, each list item in an ordered list begins with a number instead:</p>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+            <h2>Anchor Elements</h2>
+                <p>To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an (a) tag.</p>
+                    <p>Links to pages on other websites on the internet are called <strong>absolute links</strong>. A typical absolute link will be made up of the following parts: protocol://domain/path. An absolute link will always contain the protocol and domain of the destination.</p>
+                    <a href="https://www.theodinproject.com/about">This is the Odin Project's Homepage</a>
+                    <p>Links to other pages within our own website are called <strong>relative links</strong>. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.</p>
+                    <a href="pages/about.html">About</a>
+    </body>
+</html>
